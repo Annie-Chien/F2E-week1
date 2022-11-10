@@ -14,7 +14,7 @@ export const ProblemBannerContainer = styled.section`
     margin: auto;
 
     @media ${devices.tablet} {
-      width: 40rem;
+      width: 100%;
     }
   }
 `;
