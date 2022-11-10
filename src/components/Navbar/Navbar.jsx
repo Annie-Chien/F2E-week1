@@ -19,9 +19,14 @@ import { Button } from '../../shared/shared.styles';
 
 const Navbar = () => {
   const [isShown, setIsShown] = useState(false);
+  document.body.style.overflow = isShown ? 'hidden' : 'auto';
+
   return (
     <NavbarContainer>
-      <Overlay className={isShown ? 'show' : null} />
+      <Overlay
+        className={isShown ? 'show' : null}
+        onClick={() => setIsShown(false)}
+      />
       <ToggleBtn onClick={() => setIsShown(!isShown)}>
         <img src={menuIcon} alt="hamburger icon" />
       </ToggleBtn>

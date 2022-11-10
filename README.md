@@ -1,7 +1,8 @@
 ## The F2E -- Week 1
 
 透過 React 實作 The F2E 4th 官網 Redesign 版本。
-✨ Demo Link
+
+✨ [Demo Link](https://annie-f2e-2022w1.netlify.app)
 
 ## 使用技術
 

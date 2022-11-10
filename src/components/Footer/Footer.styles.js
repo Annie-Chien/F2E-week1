@@ -6,4 +6,8 @@ export const FooterContainer = styled.footer`
   color: var(--clr-text-light);
   font-family: var(--ff-paragraph-en);
   text-align: center;
+
+  a {
+    color: var(--clr-secondary);
+  }
 `;
